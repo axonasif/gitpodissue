@@ -4,6 +4,7 @@ tasks:
       source /workspace/gitpodissue/venv/bin/activate
       echo "source /workspace/gitpodissue/venv/bin/activate" >> ~/.bashrc
       pip install pyspark
+      sudo apt-get install -y zsh
 image:
   file: .gitpod.Dockerfile
 github:
