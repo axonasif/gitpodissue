@@ -1,5 +1,5 @@
 tasks:
-  - init: |
+  - before: |
       python3 -m venv /workspace/gitpodissue/venv
       source /workspace/gitpodissue/venv/bin/activate
       echo "source /workspace/gitpodissue/venv/bin/activate" >> ~/.bashrc
